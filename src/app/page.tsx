@@ -13,12 +13,13 @@ import {
 import Drawer from "./Drawer"
 import CardWithForm  from './CardWithForm'
 import { Content } from '@radix-ui/react-select'
+
 export default function Home() {
 
   return (
     <>
     <div className='flex items-center justify-center bg-primary text-primary-foreground'>
-    <h2 className='text-5xl  m-7 font-sans hover:font-mono subpixel-antialiased '>Kartik saxena Page</h2>
+    <h2 className='text-5xl  m-7 font-tokyo hover:font-mono subpixel-antialiased '>Kartik saxena Page</h2>
     </div>
    <div className='flex items-center justify-center'>
      

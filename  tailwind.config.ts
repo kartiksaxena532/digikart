@@ -14,7 +14,19 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
+     
+        fontFamily: {
+          poppins: ['Poppins', 'sans-serif'],
+          tokyo: ["TokyoTaiyakiDEMO-Regular", "cursive"],
+      },
+      purge: {
+        enabled: true,
+        content: [
+            './**/*.html'
+        ]
     },
+      
+  },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -70,7 +82,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+   
     },
   },
   plugins: [require("tailwindcss-animate")],
+  
 }

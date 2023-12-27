@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@font-face {
+  font-family: "TokyoTaiyakiDEMO-Regular";
+  src: url('/fonts/TokyoTaiyakiDEMO-Regular.otf') format('opentype');
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
